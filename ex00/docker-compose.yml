@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres
+    container_name: piscineds_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: tsoloher
+      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_DB: piscineds
+    ports:
+      - "5432:5432"
