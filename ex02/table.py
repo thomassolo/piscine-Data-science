@@ -8,7 +8,7 @@ DB_USER = "tsoloher"
 DB_PASSWORD = "mysecretpassword"
 DB_HOST = "localhost"
 DB_PORT = "5432"
-CSV_FILE = "customer/data_2022_oct.csv"  
+CSV_FILE = "../../customer/data_2022_oct.csv"  
 
 # Step 1: Read CSV file
 df = pd.read_csv(CSV_FILE)
